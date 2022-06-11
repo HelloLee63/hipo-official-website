@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Header />
       <Carousel />      
-      <div className="container p-5">
+      <div className="container">
         <ProductModule />
         <Investors />
         <Footer />

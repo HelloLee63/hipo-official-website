@@ -1,4 +1,3 @@
-import clsx from 'clsx'
 import React from 'react'
 
 const ProductCard = props => {
@@ -18,14 +17,6 @@ const ProductCard = props => {
             </tr>
           </thead>
           <tbody>
-            {/* {pools.map(pool => (
-              <tr key={pool.bToken.symbol} className="table-body">
-                <th scope="row">{pool.index}</th>
-                <td>{ pool.duration.description }</td>
-                <td>{ formatToken(getBondPrice(pool.bondAsset.address, pool.duration.duration), { scale: 18 }) ?? '-' }</td>
-                <td>@mdo</td>
-              </tr>
-            ))} */}
             <tr className="table-body">
               <th scope="row">1</th>
               <td>5 Days</td>
