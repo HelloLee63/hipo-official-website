@@ -2,6 +2,69 @@
     background-color: rgba(255, 0, 0, 0);
     border: none;
   }
-  .card.card-description .card-title {
-    
+.card.card-description .card-title {
+
+  color:#0c4a6E;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card.card-description .card-text {
+
+  color:#075985;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.card.product-card {
+
+  background-color: #1f2937;
+  border-radius: 24px;
+  border: 1px solid rgba(163, 149, 187, 0.4);
+}
+
+.card.product-card .card-title {
+  font-family: Montserrat-Bold, Montserrat;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color:#FFFFFF;
+  line-height: 21px;
+  padding-top: 2.2rem;
+  padding-left: 2.2rem;
+}
+
+/* .rates-table {
+  .title {
+    font-size: 1.125rem;
+    font-family: Montserrat-Bold, Montserrat;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 22px;
   }
+  .table-header {
+    font-size: 1rem;
+    font-family: ArialMT;
+    color: #FF257B;
+    line-height: 16px;
+    border-top: 1px solid #C6BCD8;
+    border-bottom: 1px solid #C6BCD8;
+  }
+  .table-body {
+    font-size: 1rem;
+    font-family: ArialMT;
+    color: white;
+    line-height: 16px;
+    border-top: 1px solid #999999;
+  }
+  .table-body:hover {
+    font-size: 1rem;
+    font-family: ArialMT;
+    color: white;
+    line-height: 16px;
+    border-top: 1px solid #999999;
+    background-color: #202020;;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  }
+} */
