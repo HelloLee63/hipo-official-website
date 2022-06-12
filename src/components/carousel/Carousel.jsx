@@ -1,5 +1,6 @@
 import React from 'react'
-import AppButton from '../button/AppButton'
+import LightButton from '../button/LightButton'
+import PrimaryButton from '../button/PrimaryButton'
 
 const Carousel = () => {
   return (
@@ -11,7 +12,10 @@ const Carousel = () => {
               <div className='w-100 carousel-custom-text d-flex justify-content-center p-3'>
                 Decentral Fixed Interest Protocol
               </div>
-              <AppButton />
+              <PrimaryButton title="Whitepaper"/>
+              <div className='pt-2'>
+                <LightButton title="Github" />
+              </div>
             </div>
           </div>
         </div>

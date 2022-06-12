@@ -1,9 +1,22 @@
-.app-button {
-    background-color: #111827;
-    border-radius: 30px;
-    height: 60px;
-    width: 200px;
-    color: white;
-    font-weight: 700;
-    font-size: 1.4rem
+.button-primary {
+  background-color: #111827;
+  border-radius: 30px;
+  height: 2.4em;
+  width: 200px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem
+}
+
+.button-light {
+  background: rgba(255, 0, 0, 0);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #111827;
+  border-width: 3px;
+  height: 2.4em;
+  width: 200px;
+  color: #111827;
+  font-weight: 600;
+  font-size: 1.4rem
 }
