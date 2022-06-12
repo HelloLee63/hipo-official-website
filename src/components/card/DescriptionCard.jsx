@@ -5,14 +5,12 @@ const DescriptionCard = props => {
 
   return (
     <div className='card card-description'>
-      {/* <div className='card-body'> */}
-        <div className='card-title text-center'>
-          {title}
-        </div>
-        <div className='card-text text-center pt-3'>
-          {text}
-        </div>
-      {/* </div> */}
+      <div className='card-title text-center'>
+        {title}
+      </div>
+      <div className='card-text text-center pt-3'>
+        {text}
+      </div>  
     </div>
   )
 }

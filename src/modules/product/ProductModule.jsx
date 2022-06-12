@@ -13,11 +13,11 @@ const ProductModule = () => {
         <div className='col-md-3'></div>
       </div>
       <div className='row g-xl-8 py-5'>  
-        <div className='col-md-2'></div>
-        <div className='col-md-8'>
-          <ProductCard />
+        <div className='col-md-3'></div>
+        <div className='col-md-6'>
+          <ProductCard title="Fix Rates"/>
         </div>
-        <div className='col-md-2'></div>
+        <div className='col-md-3'></div>
       </div>
     </>
   )

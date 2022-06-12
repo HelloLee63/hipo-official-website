@@ -25,46 +25,34 @@
 }
 
 .card.product-card .card-title {
-  font-family: Montserrat-Bold, Montserrat;
-  font-weight: bold;
-  font-size: 2.2rem;
+  
+  font-weight: 500;
+  font-size: 1.5rem;
   color:#FFFFFF;
   line-height: 21px;
-  padding-top: 2.2rem;
-  padding-left: 2.2rem;
 }
 
-/* .rates-table {
-  .title {
-    font-size: 1.125rem;
-    font-family: Montserrat-Bold, Montserrat;
-    font-weight: bold;
-    color: #FFFFFF;
-    line-height: 22px;
-  }
-  .table-header {
-    font-size: 1rem;
-    font-family: ArialMT;
-    color: #FF257B;
-    line-height: 16px;
-    border-top: 1px solid #C6BCD8;
-    border-bottom: 1px solid #C6BCD8;
-  }
-  .table-body {
-    font-size: 1rem;
-    font-family: ArialMT;
-    color: white;
-    line-height: 16px;
-    border-top: 1px solid #999999;
-  }
-  .table-body:hover {
-    font-size: 1rem;
-    font-family: ArialMT;
-    color: white;
-    line-height: 16px;
-    border-top: 1px solid #999999;
-    background-color: #202020;;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-  }
-} */
+.table-header {
+  font-size: 1rem;
+  font-weight: 400 !important;
+  color: #FF257B;
+  line-height: 16px;
+  /* border-top: 1px solid #C6BCD8;
+  border-bottom: 1px solid #C6BCD8; */
+}
+.table-body {
+  font-size: 0.8rem;
+  color: white;
+  line-height: 16px;
+  border-top: 1px solid #999999;
+}
+.table-body:hover {
+  font-size: 0.8rem;
+  
+  color: white;
+  line-height: 16px;
+  border-top: 1px solid #999999;
+  
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+}
