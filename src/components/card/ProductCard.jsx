@@ -23,6 +23,8 @@ const ProductCard = props => {
                 <th scope="col">Duration</th>
                 <th scope="col">ETH</th>
                 <th scope="col">USDC</th>
+                <th scope="col">USDT</th>
+                <th scope="col">DAI</th>
               </tr>
             </thead>
             <tbody>
@@ -31,10 +33,14 @@ const ProductCard = props => {
                 <td>5 Days</td>
                 <td>6.08%</td>
                 <td>6.08%</td>
+                <td>6.08%</td>
+                <td>6.08%</td>
               </tr>
               <tr className="table-body">
                 <th scope="row">2</th>
                 <td>5 Days</td>
+                <td>6.08%</td>
+                <td>6.08%</td>
                 <td>6.08%</td>
                 <td>6.08%</td>
               </tr>
@@ -43,11 +49,14 @@ const ProductCard = props => {
                 <td>5 Days</td>
                 <td>6.08%</td>
                 <td>6.08%</td>
+                <td>6.08%</td>
+                <td>6.08%</td>
               </tr>
               <tr className="table-body">
                 <th scope="row">4</th>
                 <td>5 Days</td>
-                
+                <td>6.08%</td>
+                <td>6.08%</td>
                 <td>6.08%</td>
                 <td>6.08%</td>
               </tr>
@@ -56,10 +65,14 @@ const ProductCard = props => {
                 <td>5 Days</td>
                 <td>6.08%</td>
                 <td>6.08%</td>
+                <td>6.08%</td>
+                <td>6.08%</td>
               </tr>
               <tr className="table-body">
                 <th scope="row">6</th>
                 <td>5 Days</td>
+                <td>6.08%</td>
+                <td>6.08%</td>
                 <td>6.08%</td>
                 <td>6.08%</td>
               </tr>
