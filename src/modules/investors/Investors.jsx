@@ -5,7 +5,7 @@ const Investors = () => {
     <>
       <div className='row gy-5 g-xl-8 pt-5 justify-content-center'>
         <div className='col-md-3'>
-          <InvestorCard />
+          <InvestorCard icon="./media/logo/algorand_logo_mark_black.svg"/>
         </div>
         <div className='col-md-3'>
           <InvestorCard />

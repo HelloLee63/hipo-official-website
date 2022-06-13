@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard = props => {
+const InterestRatesCard = props => {
 
   const {title} = props
 
@@ -85,4 +85,4 @@ const ProductCard = props => {
   )
 }
 
-export default ProductCard
+export default InterestRatesCard
